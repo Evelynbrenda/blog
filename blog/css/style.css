@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    padding: 19px 0px;
+}
+
+.inicio .comeco{
+    width: 1312px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.inicio .comeco .hero{
+    gap:32px;
+    background-color: #F2F2F2;
+    padding: 16px;
+}
+
+.inicio .comeco .butao{
+    background-color: #BFF009;
+    color: #1e1e1e;
+    padding: 16px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.astronauta ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+
+}
+.astronauta ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:700;
+    color: #1e1e1e; 
+}
+.comeco .butao:hover{
+    background-color: black;
+    color: white;
+}
+
+.meio .bagaca{
+    width: 1312px;
+    margin: 64px auto;
+}
+
+.meio header{
+    padding: 0px;
+    text-align: center;
+}
+
+.meio .bagaca small{
+    background-color: #BFF009;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.meio header h1{
+    font-size: 48px;
+    padding: 8px 0px;
+    font-weight: 700;
+}
+
+.meio header p{
+    font-size: 14px;
+    color: #868585 ;
+    max-width: 354px;
+    margin: 0 auto;
+}
+
+.meio .bagaca > section{
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.cartao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.card{
+    width: 368px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color:  #F2F2F2;
+    border-radius: 8px;
+}
+.card a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.card p{
+    color: #868585;
+}
+.card:hover{
+    background-color: #BFF009;
+
+
+}
